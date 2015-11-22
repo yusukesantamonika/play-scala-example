@@ -9,3 +9,7 @@ dependencies:
 test:
   override:
     - "./activator clean test"
+
+machine:
+  java:
+    version: oraclejdk8
